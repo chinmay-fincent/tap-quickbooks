@@ -450,6 +450,21 @@
     {"name": "CheckPayment", "type": "string"},
     {"name": "CreditCardPayment", "type": "string"}
   ],
+  "Deposit": [
+    {"name": "DepositToAccountRef", "type": "string"},
+    {"name": "CashBack", "type": "string"},
+    {"name": "TotalAmt", "type": "number"},
+    {"name": "domain", "type": "string"},
+    {"name": "sparse", "type": "boolean"},
+    {"name": "Id", "type": "string"},
+    {"name": "SyncToken", "type": "string"},
+    {"name": "MetaData", "type": "string"},
+    {"name": "TxnDate", "type": "string"},
+    {"name": "CurrencyRef", "type": "string"},
+    {"name": "Line", "type": "array", "child_type": "string"},
+    {"name": "TxnTaxDetail", "type": "string"},
+    {"name": "PrivateNote", "type": "string"}
+  ],
 
   "BalanceSheetReport": [
     {"name": "Total", "type": "number"},
