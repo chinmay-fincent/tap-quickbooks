@@ -373,6 +373,28 @@
     {"name":"PrintStatus", "type": "string"},
     {"name":"Balance", "type": "number"}
   ],
+  "RefundReceipt": [
+    {"name":"Id", "type": "string"},
+    {"name":"SyncToken", "type": "string"},
+    {"name":"MetaData", "type": "string"},
+    {"name":"CustomField","type": "array", "child_type": "custom_field"},
+    {"name":"DocNumber", "type": "string"},
+    {"name":"TxnDate", "type": "datetime"},
+    {"name":"CurrencyRef", "type": "string"},
+    {"name":"CustomerRef", "type": "string"},
+    {"name":"Line", "type": "array", "child_type": "invoice_line"},
+    {"name":"TxnTaxDetail", "type": "string"},
+    {"name":"CustomerMemo", "type": "string"},
+    {"name":"BillAddr", "type": "string"},
+    {"name":"FreeFormAddress", "type": "boolean"},
+    {"name":"TotalAmt", "type": "number"},
+    {"name":"ApplyTaxAfterDiscount", "type": "boolean"},
+    {"name":"PrintStatus", "type": "string"},
+    {"name":"BillEmail", "type": "string"},
+    {"name":"Balance", "type": "number"},
+    {"name":"PaymentMethodRef", "type": "string"},
+    {"name":"DepositToAccountRef", "type": "string"}
+  ],
   "TimeActivity": [
     {"name": "HourlyRate", "type": "number"},
     {"name":"CustomerRef", "type": "string"},
