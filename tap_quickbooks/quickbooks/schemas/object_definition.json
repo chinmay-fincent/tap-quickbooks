@@ -720,7 +720,7 @@
     {"name": "FreeFormAddress", "type": "boolean"}
   ],
   
-  "CreditCardPayment": [
+  "CreditCardPaymentTxn": [
     {"name": "Id", "type": "string"},
     {"name": "SyncToken", "type": "string"},
     {"name": "MetaData", "type": "string"},
