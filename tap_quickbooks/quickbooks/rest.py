@@ -111,7 +111,7 @@ class Rest():
             headers.update(self.qb._get_standard_headers())
             records_deleted = []
             excluded_entities = ["Bill", "Payment", "Transfer", "CompanyInfo", "CreditMemo", "Invoice",
-                                 "JournalEntry", "Preferences", "Purchase", "SalesReceipt", "TimeActivity", "BillPayment","Estimate","Attachable","Deposit","RefundReceipt","VendorCredit"]
+                                 "JournalEntry", "Preferences", "Purchase", "SalesReceipt", "TimeActivity", "BillPayment","Estimate","Attachable","Deposit","RefundReceipt","VendorCredit","CreditCardPayment"]
             if self.qb.include_deleted and stream not in excluded_entities:
                 # Get the deleted records first
                 if "WHERE" in query:
