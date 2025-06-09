@@ -756,5 +756,21 @@
     {"name": "DepositToAccountRef", "type": "string"},
     {"name": "domain", "type": "string"},
     {"name": "sparse", "type": "boolean"}
+  ],
+  "VendorCredit": [
+    {"name": "Id", "type": "string"},
+    {"name": "SyncToken", "type": "string"},
+    {"name": "MetaData", "type": "string"},
+    {"name": "VendorRef", "type": "string"},
+    {"name": "TxnDate", "type": "datetime"},
+    {"name": "TotalAmt", "type": "number"},
+    {"name": "APAccountRef", "type": "string"},
+    {"name": "Line", "type": "array", "child_type": "string"},
+    {"name": "ProjectRef", "type": "string"},
+    {"name": "CurrencyRef", "type": "string"},
+    {"name": "PrivateNote", "type": "string"},
+    {"name": "DocNumber", "type": "string"},
+    {"name": "domain", "type": "string"},
+    {"name": "sparse", "type": "boolean"}
   ]
 }
