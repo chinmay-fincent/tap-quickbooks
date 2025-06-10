@@ -720,6 +720,20 @@
     {"name": "FreeFormAddress", "type": "boolean"}
   ],
   
+  "CreditCardPaymentTxn": [
+    {"name": "Id", "type": "string"},
+    {"name": "SyncToken", "type": "string"},
+    {"name": "MetaData", "type": "string"},
+    {"name": "domain", "type": "string"},
+    {"name": "sparse", "type": "boolean"},
+    {"name": "Amount", "type": "number"},
+    {"name": "TxnDate", "type": "datetime"},
+    {"name": "CurrencyRef", "type": "string"},
+    {"name": "BankAccountRef", "type": "string"},
+    {"name": "CreditCardAccountRef", "type": "string"},
+    {"name": "PrintStatus", "type": "string"}
+  ],
+  
   "Attachable": [
     {"name": "FileName", "type": "string"},
     {"name": "FileAccessUri", "type": "string"},
